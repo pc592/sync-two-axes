@@ -1,7 +1,4 @@
-const DEFAULTS = {
-  minTicks: 3,
-  maxTicks: 10,
-};
+const DEFAULTS = require('./constants');
 
 const calculateNiceNum = (niceFraction, exponent) => (
   niceFraction * 10 ** exponent
@@ -53,8 +50,8 @@ const niceScale = (axis, minTicks, maxTicks, tickCountsToIntervals) => {
  *
  * @param {object} axis1 Contains the min and max property, for the min and max values of an axis.
  * @param {object} axis2 Contains the min and max property, for the min and max values of an axis.
- * @param {number} [minTicks=3] The minimum count of ticks to be algined upon.
- * @param {number} [maxTicks=20] The minimum count of ticks to be aligned upon.
+ * @param {number} [minTicks=DEFAULTS.minTicks] The minimum count of ticks to be algined upon.
+ * @param {number} [maxTicks=DEFAULTS.maxTicks] The maximum count of ticks to be aligned upon.
  *
  * @return If an alignment is not found, returns 'None'.
  *   If an alignment is found, returns an object containing the following:
