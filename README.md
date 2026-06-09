@@ -5,6 +5,15 @@ Inspiration: https://stackoverflow.com/questions/8506881/nice-label-algorithm-fo
 
 "[T]he "nicest" numbers in decimal are 1, 2, and 5, and all power-of-ten multiples of these numbers"
 
+###### NPM Package
+
+https://www.npmjs.com/package/sync-two-axes
+
+###### Calculator
+
+For convenience, a calculator is available via github-pages.
+https://pc592.github.io/sync-two-axes/
+
 ## Example
 
 Imagine you have two data sets, both graphed on the same axis. The left, y1 axis, has a range of 0 to 200. The right, y2 axis, has a range of 0 to 50. For readability's sake, you want the tick marks across the two graphs to align on 'nice' numbers. That's where this algorithm comes in.
