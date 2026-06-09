@@ -1,9 +1,9 @@
 # sync-two-axes
 Algorithm to sync/align two axes' ticks so that their intervals are 'nice'. If there are multiple 'nice' options, it should return the option with the largest tick count first.
 
-Inspiration: https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks/16363437#16363437
-
 "[T]he "nicest" numbers in decimal are 1, 2, and 5, and all power-of-ten multiples of these numbers."
+
+Inspiration/Reference: https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks/16363437#16363437
 
 #### NPM Package
 
@@ -12,6 +12,7 @@ https://www.npmjs.com/package/sync-two-axes
 #### Calculator
 
 For convenience, a calculator is available via github-pages.
+
 https://pc592.github.io/sync-two-axes/
 
 ## Example
