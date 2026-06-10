@@ -62,5 +62,5 @@ I, unfortunately, have decided to do this on windows.
     - Test: `npm run test`. Easiest way to test and develop the package on its own.
 
 3. For the tool:
-    - Install [gulp-cli](https://gulpjs.com/docs/en/getting-started/quick-start/).
-    - Run `npx gulp`.
+    - Install [gulp-cli](https://gulpjs.com/docs/en/getting-started/quick-start/) to run `gulp`.
+    - Otherwise, install [npx](https://docs.npmjs.com/cli/v11/commands/npx) and run `npx gulp`.
