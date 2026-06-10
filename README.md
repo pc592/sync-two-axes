@@ -3,17 +3,12 @@ Algorithm to sync/align two axes' ticks so that their intervals are 'nice'. If t
 
 "[T]he "nicest" numbers in decimal are 1, 2, and 5, and all power-of-ten multiples of these numbers."
 
-Inspiration/Reference: https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks/16363437#16363437
+#### Links
 
-#### NPM Package
-
-https://www.npmjs.com/package/sync-two-axes
-
-#### Calculator
-
-For convenience, a calculator is available via github-pages.
-
-https://pc592.github.io/sync-two-axes/
+* NPM Package: https://www.npmjs.com/package/sync-two-axes  
+* Calculator: https://pc592.github.io/sync-two-axes/  
+    - For convenience, a calculator is available via github-pages.  
+* Inspiration/Reference: https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks/16363437#16363437
 
 ## Example
 
@@ -59,7 +54,11 @@ Returns `'None'` since it could not determine an alignment fitting those require
 I, unfortunately, have decided to do this on windows.
 
 1. https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows
-  
-  I chose to use nvm-windows.
+    - I chose to use [nvm-windows](https://github.com/coreybutler/nvm-windows).
+    - Current node version: v18.6.0.
 
-  Current nvm latest: v18.6.0
+2. Install [gulp-cli](https://gulpjs.com/docs/en/getting-started/quick-start/).
+
+3. In the root directory, run `npm install` then `npx gulp`.
+    - Lint: `npm run lint`.
+    - Test: `npm run test`.
