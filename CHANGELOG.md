@@ -1,4 +1,10 @@
-## [0.0.3] - 2026-06-09
+## [0.0.4] - 2026-06-10
+
+### Changed
+- Updated readme.
+- Fixed calculator tool responsiveness.
+
+## [0.0.4] - 2026-06-09
 
 ### Changed
 - Updated readme.
