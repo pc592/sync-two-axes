@@ -5,10 +5,10 @@ Algorithm to sync/align two axes' ticks so that their intervals are 'nice'. If t
 
 #### Links
 
+* Inspiration/Reference: https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks/16363437#16363437  
 * NPM Package: https://www.npmjs.com/package/sync-two-axes  
-* Calculator: https://pc592.github.io/sync-two-axes/  
-    - For convenience, a calculator is available via github-pages.  
-* Inspiration/Reference: https://stackoverflow.com/questions/8506881/nice-label-algorithm-for-charts-with-minimum-ticks/16363437#16363437
+* Tool: for convenience, a calculator is available via github-pages.
+    - https://pc592.github.io/sync-two-axes/  
 
 ## Example
 
@@ -57,8 +57,10 @@ I, unfortunately, have decided to do this on windows.
     - I chose to use [nvm-windows](https://github.com/coreybutler/nvm-windows).
     - Current node version: v18.6.0.
 
-2. Install [gulp-cli](https://gulpjs.com/docs/en/getting-started/quick-start/).
-
-3. In the root directory, run `npm install` then `npx gulp`.
+2. In the root directory, run `npm install`
     - Lint: `npm run lint`.
-    - Test: `npm run test`.
+    - Test: `npm run test`. Easiest way to test and develop the package on its own.
+
+3. For the tool:
+    - Install [gulp-cli](https://gulpjs.com/docs/en/getting-started/quick-start/).
+    - Run `npx gulp`.
